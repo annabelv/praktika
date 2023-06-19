@@ -35,7 +35,7 @@ body {
     margin-bottom: 20px;
   }
   
-  #start-section, #cv-section{
+  #cv-section{
 	width: 290px;
 	height: 275px;
     transform: translate(-50%, -50%);
@@ -44,6 +44,7 @@ body {
 	left: 50%;
 	text-align: center;
   }
+
   
   #start-btn{
   transform: translate(-50%, -50%);
@@ -55,7 +56,7 @@ body {
   #submit-btn{
 	transform: translate(-50%, -50%);
 	position: absolute;
-	bottom: 1px;
+	bottom: 25%;
 	left: 50%;
   }
   
