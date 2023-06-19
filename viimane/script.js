@@ -248,13 +248,15 @@ document.addEventListener('DOMContentLoaded', function() {
           let feedbackButton = document.createElement('button');
           
           console.log("max " + maxScore);
+		  let finalEndScore = Math.round(endScore * 100 / maxScore);
+		  console.log(finalEndScore);
 
-          if (endScore <= 15) {
-            endTitle = 'Kahjuks kukkusid läbi, sinu punktiskoor oli ' + endScore + ' / ' + maxScore + ' punktist';
-          } else if (endScore > 15) {
-            endTitle = 'Said intervjuust läbi, sinu punktiskoor oli ' + endScore + ' / ' + maxScore + ' punktist';
+          if (finalEndScore < 50) {
+            endTitle = 'Kahjuks kukkusid läbi. Sinu skoor oli ' + finalEndScore + '% ehk ' + score  + '/' + maxScore + 'p.';
+          } else if (finalEndScore >= 50) {
+            endTitle = 'Said intervjuust läbi. Sinu skoor oli ' + finalEndScore + '% ehk ' + score  + '/' + maxScore + 'p.';
           } else {
-            endTitle = 'Title C';
+            endTitle = 'Midagi läks valesti!';
           }
 
           endTitleElement.innerText = endTitle;
@@ -291,9 +293,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
           submitEndScore(score, correctAnswers, inCorrectAnswers, saveCurrentQuestionIndex, correctAnswersList, incorrectAnswersList);
           return endScore;
-          return finalCorrectAnswers;
-  
-  
+          return finalCorrectAnswers;  
         }
   
         function submitEndScore(score, correctAnswers, inCorrectAnswers, saveCurrentQuestionIndex, correctAnswersList, incorrectAnswersList) {
