@@ -1,0 +1,32 @@
+QuestionNumber;Question;Answer1;Score1;NextQuestion1;Answer2;Score2;NextQuestion2;Answer3;Score3;NextQuestion3;Answer4;Score4;NextQuestion4
+0;Tere! Kas Sa oled valmis sisseastumise vestluseks?;Jah;1;1;Ei;0;2;Ma ei saa küsimusest päris täpselt aru;0;5;In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.;0;0
+1;Suurepärane! Mina olen Linda Helene Sillat ning olen selle õppekava kuraator. Lisaks töötan õpitehnoloogiate teadurina ning Haridustehnoloogia keskuse juhatajana. Minu nimi on Kairit Tammets ja olen haridustehnoloogia professor. Mina olen Hans Põldoja ning olen instituudi õppejuht ja haridustehnoloogia dotsent. Palun tutvusta ennast ja miks soovid haridustehnoloogia magistriõppesse astuda?;Minu nimi on [NIMI] ja soovin õppida Tallinna Ülikoolis.;0;6;Minu nimi on [NIMI], ma olen [VANUS] ning hetkel töötan [asdf].;1;6;Minu nimi on [NIMI] ja varem olen õppinud [HARIDUS].;1;6;Ei tea;0;6
+2;Kuidas soovid minna edasi?;Kas mul on võimalik sisseastumise vestlus mõnel teisel ajal teha?;-1;3;Soovin väga tulla õppima aga kardan sisseastumisvestlust.;0;4;Mõtlesin siiski ümber ja soovin midagi muud õppima minna.;-80;END1;Vastus4;0;END1;
+3;Muidugi. Võid igal hetkel tagasi tulla ning intervjuu läbi teha.;Aitäh võimaluse eest! Head aega!;-80;END1;Proovime siiski täna intervjuu teha. Arvan, et järgmine kord on samuti hirmutav.;1;4;Vastus3;0;;Vastus4;0;
+4;Hinga sügavalt sisse. Kõik läheb hästi ja me soovime lihtsalt sind paremini tundma õppida.;Aitäh innustuse eest.;1;6;Teil on seda lihtne öelda, olete siin igal aastal. Ma siiski esimest korda.;0;6;placeholder;0;0;placeholder2;0;0
+5;Oled jõudnud haridustehnoloogia sisseastumise vestlusele. Kandideerisid Tallinna Ülikooli läbi SAIS keskkonna.;Ah, õigus. Nüüd mulle meenus.;0;6;Jah, aga sain juba teisele õppekavale sisse.;-80;END1;placeholder;0;0;placeholder;0;0
+6;Miks soovid haridustehnoloogiat õppima tulla?;Soovin paremini mõista, mis on haridustehnoloogia ja milliseid võimalusi see pakub.;0;7;Soovin rohkem tehnoloogia kohta õppida.;1;X;Soovin robootika seadmeid rohkem kasutada õpetamisel.;1;X;Soovin uurida kuidas haridustehnoloogilised lähenemised võimaldavad toetada õppijate erinevate oskuste ja teadmiste arengut.;1;X
+7;Mõistan. Millised on sinu arvates haridustehnoloogia rakendamise võimalused?;Õpianalüütika lahenduste rakendamine.;-1;8;Robootika kasutamine õppijatega.;-1;8;Erinevate tehnoloogiate õpieesmärgil rakendamine.;-1;8;Ma ei ole päris kindel.;1;X
+8;Kõlab hästi. Kuidas on seda võimalik õppimise ja õpetamisega siduda?;;;;;;;;;;;;
+9;;;;;;;;;;;;;
+10;;;;;;;;;;;;;
+11;;;;;;;;;;;;;
+12;;;;;;;;;;;;;
+13;;;;;;;;;;;;;
+14;;;;;;;;;;;;;
+15;;;;;;;;;;;;;
+16;;;;;;;;;;;;;
+17;;;;;;;;;;;;;
+18;;;;;;;;;;;;;
+19;;;;;;;;;;;;;
+20;;;;;;;;;;;;;
+21;;;;;;;;;;;;;
+22;;;;;;;;;;;;;
+23;;;;;;;;;;;;;
+24;;;;;;;;;;;;;
+25;;;;;;;;;;;;;
+26;;;;;;;;;;;;;
+27;;;;;;;;;;;;;
+28;;;;;;;;;;;;;
+29;;;;;;;;;;;;;
+30;;;;;;;;;;;;;
