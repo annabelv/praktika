@@ -67,20 +67,22 @@ echo '</script>';
 <body>
 <form method="POST" action="">
     <div class="container">
-        <div id="cv-section">
-            <label for="name">Nimi:</label>
-            <input type="text" id="name" name="name">
-            <label for="education">Vali oma haridustase:</label>
-            <select id="education" name="education">
-                <option value="bakalaureus">Bakalaureus</option>
-                <option value="magister">Magister</option>
-                <option value="doktor">Doktor</option>
-                <option value="muu">Muu</option>
-            </select>
-            <label for="profession">Amet:</label>
-            <input type="text" id="profession" name="profession">
-            <label for="hobbies">Hobid:</label>
-            <input type="text" id="hobbies" name="hobbies">
+        <div id="start-section">
+			<div id="cv-section">
+				<label for="name">Nimi:</label>
+				<input type="text" id="name" name="name">
+				<label for="education">Vali oma haridustase:</label>
+				<select id="education" name="education">
+					<option value="bakalaureus">Bakalaureus</option>
+					<option value="magister">Magister</option>
+					<option value="doktor">Doktor</option>
+					<option value="muu">Muu</option>
+				</select>
+				<label for="profession">Amet:</label>
+				<input type="text" id="profession" name="profession">
+				<label for="hobbies">Hobid:</label>
+				<input type="text" id="hobbies" name="hobbies">
+			</div>
             <input type="submit" name="submit" id="submit-btn" value="Start"></input>
             <?php
             if(isset($_SESSION['kasutaja_id'])){
